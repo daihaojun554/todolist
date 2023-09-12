@@ -1,0 +1,69 @@
+/* 列表样式 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content{
+    width:100%;
+    height: auto;
+    /* overflow:scroll; */
+}
+input {
+    font-size: 15px;
+
+}
+
+/* 列表项样式 */
+li {
+    background-color: #f2f2f2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    position: relative;
+    /* 用于定位删除按钮 */
+
+}
+
+#btn {
+    position: absolute;
+}
+
+#form{
+    position: relative;
+}
+/* 删除按钮样式 */
+button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 25%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* 悬停效果 */
+button:hover {
+    background-color: #ff2200;
+}
+
+
+.main {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.deletebtn{
+    position: absolute;
+    top: 25%;
+}
